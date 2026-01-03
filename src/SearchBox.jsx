@@ -32,7 +32,7 @@ export default function SearchBox({ updateInfo }) {
     };
 
 
-    let handleChange = (event) => {
+    let handleChange = (event) =>{
         setcity(event.target.value);
     }
 
